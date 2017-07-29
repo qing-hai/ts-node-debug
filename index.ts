@@ -1,5 +1,5 @@
 import { Engine } from "./Modules/Game";
 
-console.log('Test 1');
+console.log('Start.');
 
 var e = new Engine();
