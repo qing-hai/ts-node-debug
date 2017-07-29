@@ -1,0 +1,25 @@
+{
+	"name": "tsgmae",
+	"version": "1.0.0",
+	"description": "A gmae",
+	"main": "index.ts",
+	"scripts": {
+		"run": "ts-node ."
+	},
+	"repository": {
+		"type": "local"
+	},
+	"keywords": [
+		"Game"
+	],
+	"author": "Tom A. Vibeto <tom@onlyhuman.dk> (https://onlyhuman.dk)",
+	"license": "ISC",
+	"dependencies": {
+		"terminal-kit": "^1.11.2",
+		"ts-node": "^3.3.0",
+		"typescript": "^2.4.2"
+	},
+	"devDependencies": {
+		"@types/node": "^8.0.17"
+	}
+}
