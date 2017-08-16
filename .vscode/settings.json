@@ -2,7 +2,7 @@
 {
 	"files.exclude": {
 		"node_modules": false,
-		".ts-node": false,
+		".ts-node": true,
 		"*-lock.json": true
 	}
 }
