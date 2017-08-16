@@ -1,5 +1,12 @@
-import { Engine } from "./Modules/Game";
+if (process.env["TS_NODE_DEBUG_BRK"])
+    debugger
 
-console.log('Start.');
+import _=require("lodash");
+import Promise=require("bluebird");
+import moment=require("moment");
 
-var e = new Engine();
+
+let hello="hello world yeah"
+
+console.log(hello);
+

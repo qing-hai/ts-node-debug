@@ -1,25 +1,26 @@
 {
-	"name": "tsgmae",
-	"version": "1.0.0",
-	"description": "A gmae",
-	"main": "index.ts",
-	"scripts": {
-		"run": "ts-node ."
-	},
-	"repository": {
-		"type": "local"
-	},
-	"keywords": [
-		"Game"
-	],
-	"author": "Tom A. Vibeto <tom@onlyhuman.dk> (https://onlyhuman.dk)",
-	"license": "ISC",
-	"dependencies": {
-		"terminal-kit": "^1.11.2",
-		"ts-node": "^3.3.0",
-		"typescript": "^2.4.2"
-	},
-	"devDependencies": {
-		"@types/node": "^8.0.17"
-	}
+  "name": "ts-node-debug",
+  "version": "1.0.0",
+  "description": "boilerplate ts-node debug",
+  "main": "index.ts",
+  "scripts": {
+    "run": "ts-node ."
+  },
+  "repository": {
+    "type": "local"
+  },
+  "author": "qinghai <qinghai@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "*",
+    "lodash": "*",
+    "moment": "*"
+  },
+  "devDependencies": {
+    "@types/bluebird": "*",
+    "@types/lodash": "*",
+    "@types/node": "*",
+    "ts-node": "*",
+    "typescript": "*"
+  }
 }

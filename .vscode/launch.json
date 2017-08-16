@@ -9,7 +9,8 @@
 			"name": "Debug",
 			"cwd": "${workspaceRoot}",
 			"env": {
-				"TS_NODE_CACHE_DIRECTORY": ".ts-node"
+				"TS_NODE_CACHE_DIRECTORY": ".ts-node",
+				"TS_NODE_DEBUG_BRK": "true"
 			},
 			"runtimeExecutable": "${workspaceRoot}/node_modules/.bin/ts-node",
 			"runtimeArgs": [
@@ -17,7 +18,8 @@
 			],
 			"protocol": "inspector",
 			"sourceMaps": true,
-			"outFiles": [".ts-node/**"]
+			"outFiles": [".ts-node/**"],
+			"preLaunchTask": null //"delete .ts-node"
 		}
 	]
 }
